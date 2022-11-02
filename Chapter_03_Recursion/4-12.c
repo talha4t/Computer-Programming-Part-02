@@ -6,7 +6,7 @@ int factorial (int n) {
 
     f_calls = f_calls + 1;
 
-    if (n == 0)
+    if (n == 1)
         return 1;
 
     return n * factorial(n - 1);
