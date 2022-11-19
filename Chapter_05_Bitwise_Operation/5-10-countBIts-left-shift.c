@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <limits.h>
 
 int main() {
 
-    int n = 32;
+    int n = sizeof(int) * CHAR_BIT;
     int count = 0, num;
 
     scanf("%d", &num);
