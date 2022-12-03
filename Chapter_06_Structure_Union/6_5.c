@@ -3,7 +3,7 @@
 
 struct nametype {
     char first[20];
-    char last [20];
+    char last[20];
 };
 
 struct student {
@@ -13,15 +13,14 @@ struct student {
 
 int main() {
 
-   struct student one;
+    struct student one;
 
-   scanf("%d", &one.id);
-   scanf("%s", one.name.first);
-   scanf("%s", one.name.last);
+    scanf("%d", &one.id);
+    scanf("%s", one.name.first);
+    scanf("%s", one.name.last);
 
-   printf("ID: %d\n", one.id);
-   printf("Name: %s %s\n", one.name.first, one.name.last);
+    printf("ID: %d\n", one.id);
+    printf("Name: %s %s\n", one.name.first, one.name.last);
 
-   return 0;
+    return 0;
 }
-

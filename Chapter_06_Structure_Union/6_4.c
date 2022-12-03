@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 struct student {
     int id;
@@ -11,9 +10,8 @@ int main() {
     struct student one;
 
     scanf("%d", &one.id);
-    // scanf("%s", &one.name);
     scanf(" %[^\n]", one.name);
-
+    
     printf("ID: %d\n", one.id);
     printf("Name: %s\n", one.name);
 
