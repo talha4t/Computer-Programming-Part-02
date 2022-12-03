@@ -4,7 +4,7 @@ int main() {
 
     struct student {
         int id;
-        char* name;
+        char *name;
     };
 
     struct student one;
