@@ -13,8 +13,8 @@ int main()
 {
     func();
 
-    printf("a = %d\n", a);
-    printf("b = %d\n", b);
+    printf("a = %d\n", a); // a = 1
+    printf("b = %d\n", b); // b  = 1
 
     return 0;
 }
