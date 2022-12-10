@@ -1,16 +1,16 @@
 #include <stdio.h>
 
-void recurse() {
-
-    char *s = "Yah! I am learning recursion";
+void recurse()
+{
+    char *s = "Hurry, I am learning recursion!";
 
     printf("%s\n", s);
 
-    recurse(); 
+    recurse();
 }
 
-int main() {
-
+int main()
+{
     recurse();
 
     return 0;

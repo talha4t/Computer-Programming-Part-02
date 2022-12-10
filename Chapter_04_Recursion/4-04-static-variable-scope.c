@@ -13,7 +13,7 @@ void func()
 
 int main()
 {
-    func();
-    func();
-    func();
+    func(); // a = 12, s = 12
+    func(); // a = 12, s = 14
+    func(); // a = 12, s = 16
 }
