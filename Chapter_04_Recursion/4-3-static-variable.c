@@ -3,15 +3,14 @@
 int a;
 static int b;
 
-void func() {
+void func()
+{
     a = a + 1;
     b = b + 1;
-    
-    return;
 }
 
-int main() {
-
+int main() 
+{
     func();
 
     printf("a = %d\n", a);
