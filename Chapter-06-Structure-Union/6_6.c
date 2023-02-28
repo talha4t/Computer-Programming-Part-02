@@ -12,11 +12,10 @@ struct studenttype {
 };
 
 int main() {
-
     struct studenttype student[5];
     int i, n = 5;
 
-    for (int i = 0; i < n; i++) {
+    for (i = 0; i < n; i++) {
         printf("Enter the ID for student %d: ", i + 1);
         scanf("%d", &student[i].id);
 
@@ -25,13 +24,15 @@ int main() {
 
         printf("Enter the last name for student %d: ", i + 1);
         scanf("%s", student[i].name.last);
+
         printf("\n");
     }
 
     printf("Output: \n\n");
 
-    for (int i = 0; i < n; i++) {
+    for (i = 0; i < n; i++) {
         printf("ID: %d\n", student[i].id);
+
         printf("Name: %s %s\n", student[i].name.first, student[i].name.last);
     }
 

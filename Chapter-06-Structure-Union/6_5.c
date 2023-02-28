@@ -8,11 +8,11 @@ struct nametype {
 
 struct student {
     int id;
+
     struct nametype name;
 };
 
 int main() {
-
     struct student one;
 
     scanf("%d", &one.id);
