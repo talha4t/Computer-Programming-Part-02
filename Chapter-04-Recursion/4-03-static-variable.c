@@ -1,20 +1,20 @@
 #include <stdio.h>
 
 int a;
+
 static int b;
 
-void func()
-{
+void func() {
     a = a + 1;
     b = b + 1;
 }
 
-int main() 
-{
+int main() {
+
     func();
 
-    printf("a = %d\n", a); // a = 1
-    printf("b = %d\n", b); // b  = 1
+    printf("a = %d\n", a);
+    printf("b = %d\n", b);
 
     return 0;
 }
